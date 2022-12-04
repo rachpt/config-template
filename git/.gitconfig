@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+
+[user]
+    name = rachpt
+    email = rachpt@126.com
+
+[core]
+    excludesfile = /Users/rach/.gitignore
+
+# 修改 FFmpeg git 仓库
+# [url "https://hub.fastgit.org/FFmpeg/FFmpeg.git"]
+#     insteadOf = https://github.com/FFmpeg/FFmpeg.git
+
+[pull]
+    ff = only
+    rebase = true
+
+[push]
+    default = current
